@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+				<title>dashboard.html</title>
+	</head>
+	<body>
+	<div class="heading">
+	<h1 style="color: #DC143C; font-size: 32pt;font-weight: 900; text-align: center; word-spacing: 0.2em;
+font-style: italic">Offloading Computation Over Web to Mobile Devices</h1>
+	<div class="secondHalf"> <br>
+	<p>Welcome Chirag !</p> <hr>
+	<div class="middle">
+	<p>Report an Issue: </p>
+    <div class="container">
+  <form action="/issue">
+
+   <br> <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <br> <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+   
+    <br> <label for="Severity">Severity</label>
+    <select id="Severity" name="Severity">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+
+    <br> <label for="subject:">Subject</label>
+     <br> <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <br>  <br>  <br>  <br> <input type="submit" value="Submit">
+
+  </form>
+</div> 
+   <br> <br>
+   <button onclick="location.href = '/home';" id="myButton" class="float-left submit-button" >Home</button>
+	</div>
+	</div>
+	</body>
+	</html>

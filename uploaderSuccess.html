@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+				<title>uploader.html</title>
+
+				<style type="text/css">
+					
+h1 {
+font-family: Century Gothic, Futura, Verdana;
+font-size: 32pt;
+font-weight: 900;
+color: #DC143C;
+text-align: center;
+word-spacing: 0.2em;
+font-style: italic;
+padding-top: 30px;
+text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+div.heading {
+padding-top: 0px;
+margin-top:0px;
+background-image: url("/static/services.jpg");
+width: 100%;
+height: 130px;
+}
+
+body {
+background-image: url("/static/back2.jpg");
+height: 100vh;
+margin-top: -30px;
+margin-left: -6px;
+margin-right: -6px;
+padding-top: 0px;
+overflow: hidden
+}
+
+div.body {
+	padding-top: 0px;
+	height: 100vh;
+}
+
+
+.nav {
+    background-color: white; /* Green */
+    border: none;
+    color: Red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18pt;
+	padding-top: 0px;
+}
+
+.firstHalf {
+float: left;
+width: 30%;
+height: 100vh;
+background-image: url("/static/half.jpg");
+}
+
+.loginTaker{
+float: left;
+width: 30%;
+height: 100vh;
+padding-left: 50px;
+font-family: Century Gothic, Futura, Verdana;
+font-size: 22pt;
+color: white;
+}
+
+.button1 {
+	/* Green */
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15pt;
+
+}
+
+.loginUploader{
+float: left;
+width: 30%;
+height: 100vh;
+padding-left: 50px;
+font-family: Century Gothic, Futura, Verdana;
+font-size: 22pt;
+color: white;
+}
+
+
+   </style>>
+	</head>
+	<body>
+	<div class="heading">
+	<h1>Offloading Computation Over Web to Mobile Devices</h1>
+	</div>
+	<div class="firstHalf"> <<br> <br>
+	<a class="nav" href="/html">My History</a> <br> <br> <br> <br>
+	<a class="nav" href="/dashboard">Dashboard</a> <br> <br> <br> <br>
+	<a class="nav" href="/issue">Report an Issue</a> <br> <br> <br> <br>
+	<a class="nav" href="/bank">Bank Details</a>
+	</div>
+	<div class="secondHalf">
+	<p>Welcome Chirag !</p>
+	<div class="middle">
+	<p>Upload a New Task</p><hr>
+	<form action = "/uploader" method = "POST" enctype = "multipart/form-data">
+   <div>
+   Give a Name to this job:<input type="text" name="filename"><br><br>
+   <label for="file">Choose file to upload</label>
+   <input type="file" id="file" name="file">
+	</div>
+	<div>
+	<br>
+   <button>Submit</button>
+ </div>
+</form>
+	</div>
+	</div> <h3>File Uploaded Sucessfully</h3>
+	</body>
+	</html>

@@ -1,0 +1,85 @@
+
+h1 {
+font-family: Century Gothic, Futura, Verdana;
+font-size: 32pt;
+font-weight: 900;
+color: orange;
+text-align: center;
+word-spacing: 0.2em;
+font-style: italic;
+padding-top: 30px;
+text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+div.heading {
+padding-top: 0px;
+margin-top:0px;
+background-image: url("services.jpg");
+width: 100%;
+height: 130px;
+}
+
+body {
+background-image: url("back2.jpg");
+height: 100vh;
+margin-top: -30px;
+margin-left: -6px;
+margin-right: -6px;
+padding-top: 0px;
+overflow: hidden 
+}
+
+div.body {
+    padding-top: 0px;
+    height: 100vh;
+}
+
+
+.nav {
+    background-color: white; /* Green */
+    border: none;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18pt;
+    padding-top: 0px;
+}
+
+.firstHalf {
+float: left;
+width: 30%;
+height: 100vh;
+background-image: url("half.jpg");
+}
+
+.loginTaker{
+float: left;
+width: 30%;
+height: 100vh;
+padding-left: 50px;
+font-family: Century Gothic, Futura, Verdana;
+font-size: 22pt;
+color: white;
+}
+
+.button1 {
+    /* Green */
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15pt;
+    
+}
+
+.loginUploader{
+float: left;
+width: 30%;
+height: 100vh;
+padding-left: 50px;
+font-family: Century Gothic, Futura, Verdana;
+font-size: 22pt;
+color: white;
+}
+
