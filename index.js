@@ -43,9 +43,11 @@ app.use(bodyParser.json());
   res.sendFile(path.join(__dirname+'/mainPage.html'));
 });
 
+
   app.get('/home', function(req, res){
   res.sendFile(path.join(__dirname+'/uploader.html'));
 });
+
   app.post('/', function(req, res){
   let received = {};
   let form = new formidable.IncomingForm(); 
