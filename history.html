@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+				<title>history.html</title>
+	</head>
+	<body>
+	<div class="heading">
+	<h1 style="color: #DC143C; font-size: 32pt;font-weight: 900; text-align: center; word-spacing: 0.2em;
+font-style: italic">Offloading Computation Over Web to Mobile Devices</h1>
+	<div class="secondHalf"> <br>
+	<p>Welcome Chirag !</p> <hr>
+	<div class="middle">
+	<p>Jobs Completed: </p>
+    <ul>
+    {{#messages}}
+    <li>{{.}}</li>
+    {{/messages}}
+   </ul>
+   <br> <br>  <form method="post" encType="multipart/form-data" action="/history" >
+    Job Results ? : <input type="text" name="delete" placeholder="above jobs only">
+   <input type="submit" value="Submit">
+   </form>
+   <br> <br>
+   <button onclick="location.href = '/home';" id="myButton" class="float-left submit-button" >Home</button>
+	</div>
+	</div>
+	</body>
+	</html>
